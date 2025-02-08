@@ -1,4 +1,23 @@
 MISC/
 train-*
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+
+# MNIST data
+mnist_data/
+*.ubyte
+
+# Generated files
+*.png
+!mnist_tsne.png
+
+# IDE
+.vscode/
+.idea/
+
 
